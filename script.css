@@ -1,0 +1,198 @@
+* {
+padding:0;
+margin:0;
+text-decoration:none;
+list-style-type:none;
+}
+
+body {
+padding:0;
+margin:0;
+width:100%;
+}
+
+p {
+    font-family:"Source Sans Pro", sans-serif;
+}
+
+.presentation {
+
+    font-size:1.5em;
+}
+
+html{
+    height:100%;
+    }
+
+.containertop {
+    height: 200px;
+    position: relative;
+}
+
+.entete {
+    font-weight:500;
+    color:#931A25;
+    font-family:"Montserrat", sans-serif;
+    font-size:1.5em;
+    text-decoration:none;
+    transition: 0.3s;
+    width:100%;
+    text-align:center;
+    border-radius:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.entete:hover {
+    text-decoration:none;
+    background-color:#FFC046;
+    background-size :100%;
+    color:white;
+    width:100%;
+    text-align:center;
+    transition: 0.3s;
+    border-radius:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.logo {
+    top:15px;
+    position:absolute;
+}
+
+.langue {
+    top:-30px;
+    position:absolute;
+    color:#931A25;
+    font-family:"Montserrat", sans-serif;
+    font-weight:400;
+}
+
+.langue:hover {
+    color:#FFC046 !important;
+}
+
+.ligneLangue {
+    color:#FFC046;
+    position:absolute;
+    font-size:larger;
+    font-weight:600;
+    right:42px;
+    bottom:-1px;
+    }
+
+
+.logo:hover {
+    transform: scale(1.2);
+    transition:0.3s;
+}
+
+.accueil {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 70%, rgb(0, 0, 0) 100%), url('Images/accueil.jpg');
+    background-position:center center;
+    background-repeat: no-repeat;
+    height:65vh;
+}
+
+h1 {
+    color:white;
+    font-family:"grape nuts";
+    font-size:5em;
+    position:absolute;
+    bottom:10%;
+}
+
+#entete {
+    margin-top:42px;
+    margin-bottom:44px;
+}
+
+h3 {
+    font-family:"Montserrat", sans-serif;
+    text-align:center;
+    font-weight:600;
+}
+
+.gauche {
+width:45%;
+height:2px;
+background-color: #FFC046;
+position:absolute;
+left:0px;
+bottom:-19vh;
+font-size:0;
+}
+
+.savoirplus {
+    color:#931A25;
+    font-family:"Source Sans Pro", sans-serif;
+    font-style:italic;
+}
+
+.savoirplus:hover {
+    color:#FFC046;
+}
+
+.rose {
+    background-color:#F5EFEF;
+}
+
+h5 {
+    font-family:"Montserrat", sans-serif;
+    color:#931A25;
+
+    font-weight:bold;
+}
+
+.picto {
+    position:absolute;
+    width:35%;
+    left:33%;
+    top:-30px;
+}
+
+.card {
+    border:2px solid #E1A4A4;
+    border-bottom-right-radius:40px;
+    box-shadow: 3px 3px 6px rgb(46, 40, 40);
+}
+
+.decalerbas {
+    margin-top:15vh;
+}
+
+.decalermoyen {
+    margin-top:7vh;
+}
+
+.droite {
+    width:47%;
+    height:2px;
+    background-color: #FFC046;
+    position:absolute;
+    right:0px;
+    bottom:-95vh;
+    font-size:0;
+}
+
+.black {
+    background-color: black;
+}
+
+.propre {
+    font-family:"Source Sans Pro", sans-serif;
+    color:white;
+    text-decoration: underline;
+    line-height:2;
+    margin-right:10px;
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    list-style:none;
+}
