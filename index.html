@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     <link href="script.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Grape Nuts' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet'>
@@ -17,7 +17,7 @@
         <nav>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-10"><br></div>
+                    <div class="col-md-10 col-sm-12"><br></div>
                     <div class="col-md-1 d-flex justify-content-end"><a class="logo" href="https://www.facebook.com/"><img src="Images/face1.png" alt="Logo facebook" width="50"></a></div>
                     <div class="col-md_1 d-flex justify-content-start"><a class="logo" href="https://www.instagram.com/?hl=fr"><img src="Images/insta1.png" alt="Logo instagram" width="50"></a></div>
                 </div>
@@ -59,11 +59,11 @@
         <br><br>
     </article>
     <article class="rose">
-        <div class="gauche"></div> 
             <div class="container">
                 <div class="row">
                     <h3 class=" col-12 align-items-center justify-content-center">Nos offres</h3>
                 </div>
+                <div class="limitation"></div>
             </div>
             <br><br>
     </article>
@@ -109,25 +109,55 @@
             <br><br><br>
     </article>
     <article class="rose">
-    <div class="droite"></div>
             <div class="container">
                 <div class="row">
                     <h3 class=" col-12 align-items-center justify-content-center">Avis</h3>
                 </div>
+                <div class="limitation"></div>
             </div>
             <br><br><br>
     </article>
     <article>
-        <div class="container">
-            <div class="row">
-                <div class="col-2"></div>
-                <div class="col-8">
-                    
+        <article class="rose">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10 d-flex align-items-center justify-content-center">
+                        <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
+                            <div class="carousel-inner ">
+                            <div class="carousel-item active marjorie">
+                                <h4>Adèle Carpin</h4>
+                                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+                                <i class="fas fa-solid fa-star gold"></i><i class="fas fa-solid fa-star gold"></i><i class="fas fa-solid fa-star gold"></i><i class="fas fa-solid fa-star gold"></i><i class="fas fa-solid fa-star"></i>
+                            </div>
+                            <div class="carousel-item marjorie">
+                                <h4>Léon Calabri</h4>
+                                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+                                <i class="fas fa-solid fa-star gold"></i><i class="fas fa-solid fa-star gold"></i><i class="fas fa-solid fa-star gold"></i><i class="fas fa-solid fa-star gold"></i><i class="fas fa-solid fa-star gold"></i>
+                            </div>
+                            <div class="carousel-item marjorie">
+                                <h4>Andreas Petrovizky</h4>
+                                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+                                <i class="fas fa-solid fa-star gold"></i><i class="fas fa-solid fa-star gold"></i><i class="fas fa-solid fa-star gold"></i><i class="fas fa-solid fa-star"></i><i class="fas fa-solid fa-star"></i>
+                            </div>
+                            <div class="carousel-item marjorie">
+                                <h4>Margareth Kievfield</h4>
+                                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+                                <i class="fas fa-solid fa-star gold"></i><i class="fas fa-solid fa-star gold"></i><i class="fas fa-solid fa-star gold"></i><i class="fas fa-solid fa-star gold "></i><i class="fas fa-solid fa-star"></i>
+                            </div>
+                            <div class="carousel-item marjorie">
+                                <h4>Alexis Ragin</h4>
+                                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+                                <i class="fas fa-solid fa-star gold"></i><i class="fas fa-solid fa-star gold"></i><i class="fas fa-solid fa-star gold"></i><i class="fas fa-solid fa-star gold"></i><i class="fas fa-solid fa-star gold"></i>
+                            </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
                 </div>
-                <div class="col-2"></div>
-            </div>
-        </div>
-        <br><br><br>
+                <br><br><br>
+        </article>
     </article>
 
     <footer class="black">
@@ -144,7 +174,7 @@
                 <div class="col-4">
                     <br>
                     <ul>
-                        <li><i class="fas fa-sharp fa-solid fa-location-dot fa-inverse"></i><span> </span><a href="ml.html" class="propre">Localisation</a></li>
+                        <li><i class="fas fa-sharp fa-solid fa-map fa-inverse"></i><span> </span><a href="ml.html" class="propre">Localisation</a></li>
                         <li><i class="fas fa-solid fa-phone fa-inverse"></i><span> </span><a href="cg.html" class="propre">Téléphone</a></li>
                         <li><i class="fas fa-solid fa-envelope fa-inverse"></i><span> </span><a href="cg.html" class="propre">Mail</a></li>
                     </ul>
@@ -152,7 +182,7 @@
                 <div class="col-4">
                     <br>
                     <ul>
-                        <li><a href="ml.html" class="propre">Localisation</a></li>
+                        <li><a href="ml.html" class="propre">Localisation</a><i class="fas fa-brands fa-facebook fa-inverse"></i><i class="fas fa-brands fa-instagram fa-inverse"></i></li>
                         <li><a href="cg.html" class="propre">Téléphone</a></li>
                         <li><a href="cg.html" class="propre">Mail</a></li>
                     </ul>
@@ -160,7 +190,10 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    
     <script src="main.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
-

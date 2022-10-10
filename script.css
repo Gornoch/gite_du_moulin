@@ -114,15 +114,12 @@ h3 {
     font-weight:600;
 }
 
-.gauche {
-width:45%;
-height:2px;
+
+.limitation {
+height:1px;
 background-color: #FFC046;
-position:absolute;
-left:0px;
-bottom:-19vh;
-font-size:0;
 }
+
 
 .savoirplus {
     color:#931A25;
@@ -156,6 +153,12 @@ h5 {
     border:2px solid #E1A4A4;
     border-bottom-right-radius:40px;
     box-shadow: 3px 3px 6px rgb(46, 40, 40);
+    transition:0.5s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition:0.5s;
 }
 
 .decalerbas {
@@ -164,16 +167,6 @@ h5 {
 
 .decalermoyen {
     margin-top:7vh;
-}
-
-.droite {
-    width:47%;
-    height:2px;
-    background-color: #FFC046;
-    position:absolute;
-    right:0px;
-    bottom:-95vh;
-    font-size:0;
 }
 
 .black {
@@ -195,4 +188,58 @@ ul {
 
 li {
     list-style:none;
+}
+
+.carousel-item {
+    height:120px;
+    width:100%;
+    border:1px solid black;
+    background-color:white;
+
+}
+
+.carousel-item h4{
+    color:#931A25;
+}
+
+.carousel-item p {
+    font-style: italic;
+}
+
+.gold {
+    color:#FFC046;
+}
+
+.marjorie {
+    padding:10px;
+}
+
+.carousel-inner {
+    position:relative;
+    overflow:hidden;
+}
+
+.carousel-slide {
+  display:flex;
+  width: 100%;
+  height: 120px;
+}
+
+.kota {
+    background: url('Images/chalet.webp');
+    margin-left:0px;
+    max-width:800px;
+    min-width:600px;
+
+}
+
+.large {
+    padding:0px;
+    margin:0px;
+}
+
+.miLarge {
+    padding:0;
+    margin:0px;
+    width:15vh;
 }
